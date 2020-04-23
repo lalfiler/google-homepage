@@ -1,0 +1,49 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    display: inline;
+}
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: small;
+}
+li a:hover{
+    text-decoration: underline;
+}
+
+#sign{
+    color: white;
+    background-color: #0275d8 ;
+}
+
+#icon{
+    max-width: 25px;
+    max-height: 25px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+button{
+    margin: 20px 5px;
+}
+input{
+    margin-top: 20px;
+}
+input[type=text]{
+    width: 100%;
+}
